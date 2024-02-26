@@ -44,11 +44,3 @@ You may use your previous exercise solutions to support your solution.
 * Style code belongs in `styles/swiftui.ex`
 
 After completing the exercise, you should remove all commented code as it is no longer needed.
-
-## Going Beyond
-
-For more on LiveView Native, consider the following resources:
-
-* LiveView Native Hexdocs: https://hexdocs.pm/live_view_native/overview.html
-* LiveVIew Native MapKit: https://github.com/liveview-native/liveview-native-swiftui-mapkit
-* LiveView Native blogs (coming soon) on the DockYard blog: https://dockyard.com/blog
