@@ -14,6 +14,8 @@ You may use your previous exercise solutions to support your solution.
             Circle().stroke(.white, lineWidth: 4)
         }
         .shadow(radius: 7)
+        .offset(y: -130)
+        .padding(.bottom, -130)
 
 
     VStack(alignment: .leading) {
@@ -25,7 +27,6 @@ You may use your previous exercise solutions to support your solution.
             Text("California")
         }
         .font(.subheadline)
-        .foregroundStyle(.secondary)
 
         Divider()
 
