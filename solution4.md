@@ -39,6 +39,14 @@ defmodule LvnWorkshopWeb.Styles.SwiftUI do
     padding(.bottom, {padding})
   end
   """
+
+  def class("stroke:" <> args) do
+    [color, line_width] = String.split(args, ":")
+
+    ~RULES"""
+    stroke(.{color}, lineWidth: {line_width})
+    """
+  end
 end
 ```
 
@@ -55,8 +63,8 @@ end
         position:longitude-delta={0.2}
     />
 
-    <Image name="turtlerock" class="clipShape:circle shadow-radius:7 offset-y:-130 padding-bottom:-130">
-        <Circle class="stroke:white:4"></Circle>
+    <Image class="clipShape:circle overlay-circle shadow-radius:7 offset-y:-130 padding-bottom:-130" name="turtlerock">
+        <Circle class="stroke:white:4" template="circle" />
     </Image>
 
     <VStack class="padding" alignment="leading">

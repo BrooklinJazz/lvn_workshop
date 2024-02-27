@@ -7,26 +7,6 @@ defmodule LvnWorkshopWeb.Styles.SwiftUI do
   use LiveViewNative.Stylesheet, :swiftui
 
   ~SHEET"""
-  "font:" <> font do
-    font(.{font})
-  end
-
-  "padding" do
-    padding()
-  end
-
-  "clipShape:" <> shape do
-    clipShape(.{shape})
-  end
-
-  "overlay-circle" do
-    overlay(content: :circle)
-  end
-
-  "shadow-radius:" <> radius do
-    shadow(radius: {radius})
-  end
-
   "frame:h" <> height do
     frame(height: {height})
   end
