@@ -44,6 +44,8 @@ If you encounter any issues, or the application does not automatically reload tr
 
 You may access the slides for this workshop at https://docs.google.com/presentation/d/1Tub42qB_JbZ-1yT6g44zM4i3Xq1o9YYKRJaYWF57hxU/edit?usp=sharing
 
+The instructor will explain the required concepts before separating the participants into groups to complete each exercise.
+
 ## Further Resources
 
 For more on LiveView Native, consider the following resources:
